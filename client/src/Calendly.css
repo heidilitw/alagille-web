@@ -1,0 +1,5 @@
+.CalendlyEmbed div {
+    padding: 0 5em;
+    width: 100%; /* Adjust size as needed */
+    height: 800px; /* Keep the same as width for perfect circles */
+}

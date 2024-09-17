@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  background-color: white; /* Set background to white */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black; /* Change text color to black for better contrast */
+}
+
+.App-header {
+  background-color: #CE5328; /* Set title bar background to #CE5328 */
+  color: white; /* Set font color to white */
+  width: 100%;
+  border-radius: 0px;
+  font-size: 1.2em; /* Adjust the font size as needed */
+}
+
+.TableOfContents {
+  margin: 20px;
+}
+
+.TableOfContents ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.TableOfContents li {
+  margin: 10px 0;
+}
+
+.TableOfContents a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.AboutUs, .ProjectDescription, .References {
+  margin: 20px auto; /* Center align horizontally */
+  padding: 20px; /* Consistent padding */
+  background-color: #f0f0f0; /* Light grey background for sections */
+  border-radius: 10px;
+  text-align: justify;
+  width: 80%;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.member {
+  margin: 10px;
+  text-align: center;
+}
+
+.member img {
+  width: 5em;
+  border-radius: 50%;
+}
+
+.AboutUs h2 {
+  text-align: center;
+}
+
+.AboutUs .member p {
+  font-size: 0.7em; /* Adjust the font size as needed */
+}
+
+.number-container {
+  display: inline-block; /* Only as wide as necessary */
+  padding: 10px; /* Add padding if needed */
+  background-color: #f0f0f0; /* Example background color */
+  border-radius: 5px; /* Optional: if you want rounded corners */
+}
+
+.App-footer {
+  background-color: #CE5328; /* Set title bar background to #CE5328 */
+  color: white; /* Set font color to white */
+  width: 100%;
+  border-radius: 0px;
+  font-size: 1.2em; /* Adjust the font size as needed */
+  display: flex;
+}
+
+.logos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logo img {
+  width: 5em;
+  min-height: 1.5em;
+  margin-top: 0.5em;
+}
+

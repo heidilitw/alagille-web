@@ -1,0 +1,11 @@
+.ProjectDescription h3 {
+    text-align: center;
+}
+
+.ProjectDescription h4 {
+    text-align: center;
+}
+.ProjectDescription p {
+    text-align: justify;
+    padding: 0 2.5em; /* Consistent padding */
+}
