@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import AboutUs from './AboutUs';
 import ProjectDescription from './ProjectDescription';
@@ -6,7 +6,11 @@ import References from './References';
 import Footer from './Footer';
 
 function App() {
-  return (
+    useEffect(() => {
+        document.title = 'GestaltMatcher for Alagille Syndrome';
+    }, []);
+
+    return (
       <div className="App">
           <header className="App-header">
               <h1>Screening for Alagille Syndrome by facial image analysis with artificial intelligence</h1>
@@ -21,7 +25,7 @@ function App() {
 
 
       </div>
-  );
+    );
 }
 
 export default App;
